@@ -1,0 +1,19 @@
+@charset "utf-8";
+.section .left-nav ul>li
+{
+	width:240px;
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom:1px dashed #aaa;
+    text-indent: 2em;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.section .right-content .back{
+    float: right;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+#b2,#b3,#b4,#b5,#b6{
+    display: none;
+}

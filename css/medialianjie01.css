@@ -1,0 +1,32 @@
+@charset "utf-8";
+.all{
+				width: 600px;
+				text-align: center;
+				line-height: 20px;
+				margin: 10px auto ;
+				margin-bottom: 30px;
+				padding-top: 10px;
+	font-size: 12px;
+				}
+		h1{
+			font-size: 1.5em;
+			line-height: 25px;
+		}
+			.biaozhu{
+		        line-height:20px;
+				}
+				.img{
+					margin-top: 10px;
+				}
+			
+			.a1{
+				text-align: left;
+				overflow: hidden;
+				
+							}
+							
+			.p1{
+				margin-top: 0;
+				text-align: left; 
+				text-indent: 2em;
+			}

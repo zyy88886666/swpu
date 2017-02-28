@@ -1,0 +1,43 @@
+@charset "utf-8";
+.section .left-nav ul  .acci{
+    line-height: 30px;
+    border-bottom:1px dashed #aaa;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.section .left-nav  ul .hide{
+    line-height: 20px;
+    font-size: 12px;
+    border-bottom:1px dashed #aaa;
+    padding-left: 3em;
+    display: none;
+}
+.section .right-content .back{
+    float: right;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#b1,#b10,#b2,#b22,#b23, #b3,#b32,#b33,#b34,
+#b4,#b42,#b43,#b44,#b45,#b46,#b50,#b5,#b52,#b53,#b54{
+    display: none;
+}
+.section .left-nav ul li{
+    position: relative;
+}
+.section .left-nav .tip{
+    position: absolute;
+    width: 230px;
+    top:-2000px;
+    left: 1em;
+    text-indent: .7em;!important;
+    line-height: 25px;!important;
+    margin-left: 6em;!important;
+    font-size: 10px;
+}
+.section .left-nav .hide:hover .tip{
+    position: absolute;
+    border: 1px solid rgba(0,0,0,.6);
+    background: #faf6b2;
+    top:19px;
+    z-index: 1;
+}

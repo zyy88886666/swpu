@@ -1,0 +1,29 @@
+@charset "utf-8";
+.section .left-nav ul  .acci{
+    line-height: 30px;
+    border-bottom:1px dashed #aaa;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.section .left-nav  ul .hide{
+    line-height: 20px;
+    font-size: 12px;
+    border-bottom:1px dashed #aaa;
+    padding-left: 3em;
+    display: none;
+}
+.section .right-content .text-title div{
+    line-height: 20px;
+}
+.section .right-content .text-title p{
+    font-size: 16px;
+}
+
+.section .right-content .back{
+    float: right;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#b21,#b22,#b23,#b3,#b4,#b5{
+    display: none;
+}

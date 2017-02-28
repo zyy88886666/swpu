@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="四川省，成果，申报，西南石油大学，成果奖申报，MSFC">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/resultsapplication..css" type="text/css">
+    <title>西南石油大学-跨校课程组MSFC教学-四川省教学成果奖申报
+    </title>
+</head>
+
+<body>
+<!--star header-->
+<div class="header">
+    <img src="../jpg/title.jpg" /></div><!--end  header-->
+
+<!--star top-nav-->
+<div class="top-nav">
+    <ul class="nav-bar">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="resultsdeclaration.html">成果申报</a></li>
+        <li><a href="#" style="background-color: rgb(42, 171, 250);color:rgba(255,255,255,1);">成果应用</a></li>
+        <li><a href="teachingbuilding.html">教学建设</a></li>
+        <li><a href="attachmentmaterial.html">附件材料</a></li>
+        <li><a href="mediaevaluation.html">媒体评价</a></li>
+        <li><a href="forhelp.html">获取帮助</a></li>
+    </ul>
+</div><!--end  top-nav-->
+
+<!--star section-->
+<div class="section">
+<div class="left-nav">
+    <div class="title">成果应用</div>
+<ul>
+    <li id="cheng" class="acci" onclick="ying()">应用情况</li>
+    <li id="chuan" class="acci" onclick="huo()">获奖情况</li>
+    <li class="hide hide2" onclick="a1()">教师获奖</li>
+    <li class="hide hide2" onclick="a2()">学生获奖</li>
+    <li class="hide hide2" onclick="a3()">集体获奖</li>
+    <li id="ke" class="acci" onclick="chen()">成果鉴定书</li>
+</ul>
+</div>
+    <div class="right-content">
+    <div id="b1">
+        <p class="text-title">应用情况<span class="back">成果应用 >> 应用情况</span></p>
+        <hr>
+        <iframe frameborder=1px width=700 height=720  scrolling=yes src=../doc/apply01.html></iframe>
+    </div>
+
+    <!--<div id="b2">
+        <p class="text-title">获奖情况<span class="back">成果应用 >> 获奖情况</span></p>
+        <hr>
+        <iframe frameborder=1px width=700 height=2420  scrolling=yes src=../jpg/award/show.html></iframe>
+    </div>-->
+        <div id="b21">
+            <p class="text-title">教师获奖<span class="back">获奖情况 >> 教师获奖</span></p>
+            <hr>
+            <iframe frameborder=1px width=700 height=2420  scrolling=yes src=../jpg/award/show1.html></iframe>
+        </div>
+        <div id="b22">
+            <p class="text-title">学生获奖<span class="back">获奖情况 >> 学生获奖</span></p>
+            <hr>
+            <iframe frameborder=1px width=700 height=1300  scrolling=yes src=../jpg/award/show2.html></iframe>
+        </div>
+        <div id="b23">
+            <p class="text-title">集体获奖<span class="back">获奖情况 >> 集体获奖</span></p>
+            <hr>
+            <iframe frameborder=1px width=700 height=800  scrolling=yes src=../jpg/award/show3.html></iframe>
+        </div>
+    <div id="b3">
+        <p class="text-title">成果鉴定书<span class="back">成果应用 >> 成果鉴定书</span></p>
+        <hr>
+        <div id="radio_container">
+        <embed   src="../pdf/jianding.pdf"  frameborder=1px width="700" height="2000"  id="player" scrolling=yes></embed>
+        </div>
+    </div>
+</div><!--end section-->
+</div>
+<!--star footer-->
+<div class="footer">
+    <div class="text-box">
+        版权所有：西南石油大学计算机科学学院<br />
+        学校地址：成都市新都区新都大道8号
+    </div>
+</div><!--end footer-->
+</body>
+<script type="text/javascript">
+    var b1 = document.getElementById("b1");
+    var b21 = document.getElementById("b21");
+    var b22 = document.getElementById("b22");
+    var b23 = document.getElementById("b23");
+    var b3 = document.getElementById("b3");
+
+    function ying(){
+        b1.style.display='block';
+        b21.style.display='none';
+        b22.style.display='none';
+        b23.style.display='none';
+        b3.style.display='none';
+    }
+    function huo(){
+        b1.style.display='none';
+        b21.style.display='block';
+        b22.style.display='none';
+        b23.style.display='none';
+        b3.style.display='none';
+    }
+    function a1() {
+        b1.style.display='none';
+        b21.style.display='block';
+        b22.style.display='none';
+        b23.style.display='none';
+        b3.style.display='none';
+    }
+    function a2() {
+        b1.style.display='none';
+        b21.style.display='none';
+        b22.style.display='block';
+        b23.style.display='none';
+        b3.style.display='none';
+    }
+    function a3() {
+        b1.style.display='none';
+        b21.style.display='none';
+        b22.style.display='none';
+        b23.style.display='block';
+        b3.style.display='none';
+    }
+
+    function chen(){
+        b1.style.display='none';
+        b21.style.display='none';
+        b22.style.display='none';
+        b23.style.display='none';
+        b3.style.display='block';
+    }
+
+
+    //下拉菜单隐藏和显示
+    $(document).ready(function(){
+        $("#chuan").click(function(){
+            $(".hide2").slideToggle("slow");
+        });
+    });
+</script>
+</html>

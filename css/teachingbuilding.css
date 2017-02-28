@@ -1,0 +1,36 @@
+@charset "utf-8";
+.section .left-nav ul  .acci{
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom:1px dashed #aaa;
+    text-indent: 2em;
+}
+.section .left-nav  ul .hide{
+    line-height: 20px;
+    font-size: 12px;
+    border-bottom:1px dashed #aaa;
+    padding-left: 3em;
+    display: none;
+}
+.section .right-content .back{
+    float: right;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.section .right-content .content-title{
+    line-height: 30px;
+    text-indent: 2em;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section .right-content .content-text{
+    line-height: 20px;
+    text-indent: 2em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+#b11,#b12,#b13,#b14,#b15,#b16,#b17,#b18,#b19,
+#b21,#b20,#b22,#b23,#b24,#b25,#b26,#b27,#b28{
+    display: none;
+}

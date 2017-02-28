@@ -1,0 +1,19 @@
+body {
+	 font-family: '宋体','楷体',' 黑体';
+	 font-size: 12px;
+}
+
+.all{
+text-align:center;
+}
+ .table{
+  margin:10px auto;
+  line-height:20px;
+  }
+ .biaoti{
+ font-size:14px;
+ margin-bottom:15px;
+ }
+ .img{
+ text-align:center;
+ }

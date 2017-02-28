@@ -1,0 +1,15 @@
+@charset "utf-8";
+.section .right-content .text-title a{
+    text-decoration: none;
+    float: right;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.section .right-content .back{
+    float: right;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#b2,#b3,#b4,#b5,#b6{
+    display: none;
+}
